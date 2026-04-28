@@ -1,0 +1,29 @@
+### Post a Library Event
+POST http://localhost:8080/v1/libraryevent
+Content-Type: application/json
+
+{
+  "libraryEventId": null,
+  "libraryEventType": "NEW",
+  "book": {
+    "bookId": 123,
+    "bookName": "Kafka Streams",
+    "bookAuthor": "Rabindra",
+    "bookISBN": "SB123445555"
+  }
+}
+
+### Update a Library Event
+PUT http://localhost:8080/v1/libraryevent
+Content-Type: application/json
+
+{
+  "libraryEventId": 20,
+  "libraryEventType": "UPDATE",
+  "book": {
+    "bookId": 123,
+    "bookName": "Kafka Streams - updated",
+    "bookAuthor": "Rabindra",
+    "bookISBN": "SB123445555"
+  }
+}

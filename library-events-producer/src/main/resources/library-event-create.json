@@ -1,0 +1,10 @@
+{
+  "libraryEventId": null,
+  "libraryEventType": "NEW",
+  "book": {
+    "bookId": 201,
+    "bookName": "Mastering of Cloud Native",
+    "bookAuthor": "John Jonson",
+    "bookISBN": "12344123T"
+  }
+}
