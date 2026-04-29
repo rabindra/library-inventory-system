@@ -1,4 +1,4 @@
-package com.rabs.library_events_producer.controller;
+package com.rabs.libraryevents.producer.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

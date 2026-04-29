@@ -1,4 +1,4 @@
-package com.rabs.library_events_producer.config;
+package com.rabs.libraryevents.producer.config;
 
 import jakarta.validation.Valid;
 import org.apache.kafka.clients.admin.NewTopic;

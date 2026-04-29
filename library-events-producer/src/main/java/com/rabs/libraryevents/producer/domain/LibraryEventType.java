@@ -1,4 +1,4 @@
-package com.rabs.library_events_producer.domain;
+package com.rabs.libraryevents.producer.domain;
 
 
 public enum LibraryEventType {

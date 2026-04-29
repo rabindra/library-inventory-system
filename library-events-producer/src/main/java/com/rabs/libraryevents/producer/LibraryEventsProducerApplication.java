@@ -1,4 +1,4 @@
-package com.rabs.library_events_producer;
+package com.rabs.libraryevents.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

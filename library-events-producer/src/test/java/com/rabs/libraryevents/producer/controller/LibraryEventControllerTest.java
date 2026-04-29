@@ -1,11 +1,11 @@
-package com.rabs.library_events_producer.controller;
+package com.rabs.libraryevents.producer.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rabs.library_events_producer.domain.Book;
-import com.rabs.library_events_producer.domain.LibraryEvent;
-import com.rabs.library_events_producer.domain.LibraryEventType;
-import com.rabs.library_events_producer.producer.LibraryEventsProducer;
-import com.rabs.library_events_producer.util.TestUtil;
+import com.rabs.libraryevents.producer.domain.Book;
+import com.rabs.libraryevents.producer.domain.LibraryEvent;
+import com.rabs.libraryevents.producer.domain.LibraryEventType;
+import com.rabs.libraryevents.producer.producer.LibraryEventsProducer;
+import com.rabs.libraryevents.producer.util.TestUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

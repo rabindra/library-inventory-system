@@ -1,4 +1,4 @@
-package com.rabs.library_events_producer;
+package com.rabs.libraryevents.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

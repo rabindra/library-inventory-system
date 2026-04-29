@@ -1,11 +1,10 @@
-package com.rabs.library_events_producer.producer;
+package com.rabs.libraryevents.producer.producer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rabs.library_events_producer.domain.LibraryEvent;
+import com.rabs.libraryevents.producer.domain.LibraryEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.common.header.Header;
 import org.apache.kafka.common.header.internals.RecordHeader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

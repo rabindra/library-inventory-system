@@ -1,8 +1,8 @@
-package com.rabs.library_events_producer.util;
+package com.rabs.libraryevents.producer.util;
 
-import com.rabs.library_events_producer.domain.Book;
-import com.rabs.library_events_producer.domain.LibraryEvent;
-import com.rabs.library_events_producer.domain.LibraryEventType;
+import com.rabs.libraryevents.producer.domain.Book;
+import com.rabs.libraryevents.producer.domain.LibraryEvent;
+import com.rabs.libraryevents.producer.domain.LibraryEventType;
 
 public class TestUtil {
 

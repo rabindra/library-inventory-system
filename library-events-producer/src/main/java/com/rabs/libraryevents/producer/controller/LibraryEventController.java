@@ -1,9 +1,9 @@
-package com.rabs.library_events_producer.controller;
+package com.rabs.libraryevents.producer.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.rabs.library_events_producer.domain.LibraryEvent;
-import com.rabs.library_events_producer.domain.LibraryEventType;
-import com.rabs.library_events_producer.producer.LibraryEventsProducer;
+import com.rabs.libraryevents.producer.domain.LibraryEvent;
+import com.rabs.libraryevents.producer.domain.LibraryEventType;
+import com.rabs.libraryevents.producer.producer.LibraryEventsProducer;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
