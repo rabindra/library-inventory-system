@@ -18,11 +18,11 @@ PUT http://localhost:8080/v1/libraryevent
 Content-Type: application/json
 
 {
-  "libraryEventId": 20,
+  "libraryEventId": 1,
   "libraryEventType": "UPDATE",
   "book": {
     "bookId": 123,
-    "bookName": "Kafka Streams - updated",
+    "bookName": "Kafka Streams - updated 2",
     "bookAuthor": "Rabindra",
     "bookISBN": "SB123445555"
   }
